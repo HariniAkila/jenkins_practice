@@ -7,7 +7,7 @@ public class AdditionTest {
 
 	@Test(groups = {"group1"})
 	public void Add() {
-		Assert.assertEquals(2, 2);
+		Assert.assertEquals(2, 3);
 	}
 	
 	@Test(groups = {"group2"})
