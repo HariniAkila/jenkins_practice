@@ -35,7 +35,7 @@ public class TestListeners implements ITestListener   {
 		} catch (NoSuchFieldException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} catch (SecurityException e) {
+		} catch (SecurityException e) {			
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
@@ -64,7 +64,7 @@ public class TestListeners implements ITestListener   {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+		System.out.println("hi");
 	
 	}  
 	  

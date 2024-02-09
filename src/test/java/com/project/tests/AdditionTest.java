@@ -22,6 +22,6 @@ public class AdditionTest {
 		 driver.get("https://www.saucedemo.com/");
 		 String title = driver.getTitle();
 		
-		Assert.assertEquals(title,"Swag Labs");
+		Assert.assertEquals(title,"Swag Labs1");
 		 }
 }
