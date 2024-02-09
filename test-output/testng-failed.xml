@@ -5,7 +5,7 @@
     <classes>
       <class name="com.project.tests.AdditionTest">
         <methods>
-          <include name="Subtract"/>
+          <include name="firstSeleniumTest"/>
         </methods>
       </class> <!-- com.project.tests.AdditionTest -->
     </classes>
