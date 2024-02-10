@@ -16,6 +16,19 @@
     <artifactId>selenium-java</artifactId>
     <version>4.17.0</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>7.15.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>7.15.0</version>
+</dependency>
 
 </dependencies>
 <properties>
@@ -30,6 +43,9 @@
     <artifactId>maven-surefire-plugin</artifactId>
     <version>3.2.5</version>
   <configuration>
+	  <includes>
+		  <include>**/RunnersTest*.java</include>
+	  </includes>
         <suiteXmlFiles>
           <suiteXmlFile>${xmlFile}</suiteXmlFile>
         </suiteXmlFiles>

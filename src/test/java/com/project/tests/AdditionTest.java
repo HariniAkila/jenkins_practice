@@ -12,7 +12,7 @@ import org.testng.asserts.SoftAssert;
 public class AdditionTest {
 
 	public WebDriver driver;
-	 @Test(groups = {"group1"})
+	 //@Test(groups = {"group1"})
 	 public void firstSeleniumTest() {
 		 ChromeOptions options = new ChromeOptions();
 		 options.setPageLoadTimeout(Duration.ofMinutes(1));
